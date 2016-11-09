@@ -47,12 +47,21 @@ nav ul li a {
     color: #fff;
 }
 
+a:hover {
+    text-decoration: line-through;
+    color: #ffbfc3;
+}
+
 .front {
     background-color: #FFFBC1;
 }
 
 
+/*  animation  */
 
+body:hover .front {
+    transform: perspective(700px) scale(0.5) translateX(-16.66%) rotateY(25deg);
+}
 
 
 
